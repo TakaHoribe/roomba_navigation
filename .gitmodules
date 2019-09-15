@@ -1,0 +1,6 @@
+[submodule "ros/src/create_autonomy"]
+	path = ros/src/create_autonomy
+	url = https://github.com/AutonomyLab/create_autonomy.git
+[submodule "ros/src/ydlidar"]
+	path = ros/src/ydlidar
+	url = https://github.com/EAIBOT/ydlidar.git
