@@ -2,7 +2,7 @@
 
 
     <!-- roomba driver -->
-    <include file="$(find ca_driver)/launch/create_2.launch"/>
+    <include file="$(find ca_driver)/launch/create_2.launch">
         <param name="config" value="$(find ca_driver)/config/roomba.yaml" />
     </include>
 
