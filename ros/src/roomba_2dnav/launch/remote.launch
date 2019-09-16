@@ -5,6 +5,8 @@
 
     <!-- roomba control -->
     <include file="$(find ca_driver)/launch/create_2.launch"/>
+        <param name="config" value="$(find ca_driver)/config/roomba.yaml" />
+    </include>
 
     <!-- joy stick driver -->
     <node pkg="joy" name="joy_node" type="joy_node">
